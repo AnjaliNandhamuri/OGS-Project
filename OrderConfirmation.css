@@ -1,0 +1,149 @@
+/* Overall container */
+.confirmation-container {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for elegance */
+  }
+  
+  /* Confirmation header */
+  .confirmation-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .confirmation-header h1 {
+    color: #28a745; /* Green for the main heading */
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-header p {
+    color: #333; /* Dark text for readability */
+    font-size: 18px;
+  }
+  
+  .confirmation-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Order summary section */
+  .order-summary {
+    background-color: #ffffff; /* White background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-top: 40px;
+  }
+  
+  .order-summary h2 {
+    color: #28a745; /* Green for the title */
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .order-summary ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .order-summary li {
+    margin: 10px 0;
+  }
+  
+  .order-summary li strong {
+    font-weight: bold;
+  }
+  
+  /* Delivery info section */
+  .delivery-info {
+    background-color: #ffffff; /* White background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-top: 40px;
+  }
+  
+  .delivery-info h3 {
+    color: #28a745; /* Green for subheadings */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .delivery-info p {
+    color: #333; /* Dark text for readability */
+    font-size: 16px;
+  }
+  
+  .delivery-image {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+  }
+  
+  /* Next steps and buttons */
+  .next-steps {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .next-steps h3 {
+    color: #28a745; /* Green for subheading */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .next-steps p {
+    color: #333; /* Dark text for readability */
+    font-size: 16px;
+  }
+  
+  .track-button, .feedback-button, .continue-shopping {
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .track-button:hover, .feedback-button:hover, .continue-shopping:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Footer section */
+  .thank-you-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .thank-you-footer button {
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .thank-you-footer button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

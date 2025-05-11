@@ -1,0 +1,112 @@
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #66bb6a, #a5d6a7);
+  height: 400px;
+  color: white;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  z-index: 2;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.hero-overlay p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Category Bar */
+.category-bar {
+  background: #f4f4f4;
+}
+
+.category-link {
+  font-size: 1.1rem;
+  color: #66bb6a;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.category-link:hover {
+  color: #28a745;
+}
+
+/* Featured & Recommended Products */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Button Styles */
+button.btn.btn-secondary {
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color: #6c757d;
+  transition: background-color 0.3s ease;
+}
+
+button.btn.btn-secondary:hover {
+  background-color: #495057;
+}
+
+button.btn-success {
+  border-radius: 30px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+}
+
+.card-body .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.card-body .btn:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  font-size: 1rem;
+  background-color: #28a745;
+}
+
+/* Back to Top Button */
+button.btn.btn-secondary {
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button.btn.btn-secondary:hover {
+  background-color: #495057;
+}

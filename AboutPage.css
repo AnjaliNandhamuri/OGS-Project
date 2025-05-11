@@ -1,0 +1,52 @@
+/* AboutPage.css */
+
+.about-us-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.about-us-section h2 {
+  color: #28a745; /* Success green */
+  margin-bottom: 30px;
+}
+
+.about-us-section .lead {
+  font-size: 1.1rem;
+  color: #495057; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+.about-us-section p {
+  color: #6c757d; /* Light dark gray text */
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-us-section img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-us-section h3 {
+  color: #28a745; /* Success green */
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.about-us-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-us-section ul li {
+  color: #6c757d; /* Light dark gray text */
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .about-us-section .col-lg-6:first-child {
+    margin-bottom: 30px;
+  }
+}

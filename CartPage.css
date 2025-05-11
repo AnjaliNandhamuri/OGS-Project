@@ -1,0 +1,26 @@
+.cart-container {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-title {
+    color: #28a745;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .btn-checkout {
+    background-color: #28a745;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .btn-checkout:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,68 @@
+/* ProductsPage.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fdf5;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #28a745 !important;
+  }
+  
+  .category-bar a {
+    margin-right: 20px;
+    font-weight: 600;
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .product-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .product-card {
+    margin-bottom: 30px;
+  }
+  
+  .carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .category-container {
+    margin-bottom: 50px;
+  }
+  
+  .product-card .card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s;
+}
+
+.product-card .card img:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}

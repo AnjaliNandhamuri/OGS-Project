@@ -1,0 +1,58 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fdf5;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #28a745 !important;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.contact-header {
+  background: linear-gradient(90deg, #eaffea, #f5fff3);
+}
+
+footer {
+  background-color: #28a745;
+}
+
+.form-floating label i {
+  color: #28a745;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.live-chat-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.live-chat-window {
+  background-color: #f9f9f9;
+  border-top: 2px solid #28a745;
+  border-radius: 15px 15px 0 0;
+  z-index: 999;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+}
